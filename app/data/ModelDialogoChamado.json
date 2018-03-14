@@ -1,0 +1,44 @@
+[
+    {
+        "id": "Abrir chamado",
+        "prompt": "Por favor, na lista de serviços a baixo escolha para qual deseja atendimento",
+        "errorPrompt": "opção inválida, por favor seleione abaixo",
+        "type": "choice",
+        "choices": [
+            {
+                "value": "Meu site",
+                "synonyms": ["Meu site", "Site", "site", "s"]
+            },
+            {
+                "value": "Meu Email",
+                "synonyms": ["Meu E-mail", "meu email", "e-mail", "mail"]
+            }
+        ]
+   },
+   
+   {
+        "id": "nome",
+        "prompt": "Por favor, informe seu nome",
+        "type": "text"
+    },
+    {
+        "id": "telefone",
+        "prompt": "Por favor, informe seu telefone",
+        "type": "text"
+    },
+    {
+        "id": "email",
+        "prompt": "Por favor, informe seu endereço de email",
+        "type": "text"
+    },
+	{
+        "id": "descricao_problema",
+        "prompt": "Por favor, informe qual seria seu problema.",
+        "type": "text"
+    },
+	{
+        "id": "numero_chamado"
+        "prompt": "Por favor, Me informe seu numero de chamado para que possa estar verificando o status",
+        "type": "text"
+    }
+]

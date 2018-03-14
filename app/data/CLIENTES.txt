@@ -1,0 +1,2 @@
+nome|email|telefone
+henrique pereira de brito;henrique.pb.brito@gmail.com;971155944

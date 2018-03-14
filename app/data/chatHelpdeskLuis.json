@@ -1,0 +1,149 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "chatHelpdeskLuis",
+  "desc": "helpdesk e abertura de chamador de um serviço de hospedagem de sites",
+  "culture": "pt-br",
+  "intents": [
+    {
+      "name": "ajuda"
+    },
+    {
+      "name": "Comercial"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "recepcao"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "a galeria de imagem sumiu",
+      "intent": "ajuda",
+      "entities": []
+    },
+    {
+      "text": "boa noite",
+      "intent": "recepcao",
+      "entities": []
+    },
+    {
+      "text": "boa tarde",
+      "intent": "recepcao",
+      "entities": []
+    },
+    {
+      "text": "bom dia tudo bem",
+      "intent": "recepcao",
+      "entities": []
+    },
+    {
+      "text": "como consigo aumentar o limite de conexão",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "como está?",
+      "intent": "recepcao",
+      "entities": []
+    },
+    {
+      "text": "como faço para alterar a cor de fundo",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "como faço para alterar uma imagem",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "como faço para renovar minha hospedagem",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "como posso fazer para acompanhar a quantidade de acessos por dia a minha pagina",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "como vai?",
+      "intent": "recepcao",
+      "entities": []
+    },
+    {
+      "text": "gostaria de comprar um template responsivo",
+      "intent": "Comercial",
+      "entities": []
+    },
+    {
+      "text": "gostaria de uma licença gratuita é possivel",
+      "intent": "Comercial",
+      "entities": []
+    },
+    {
+      "text": "não esta aparecendo o pagina home",
+      "intent": "ajuda",
+      "entities": []
+    },
+    {
+      "text": "não estou conseguindo acessar a pagina de contatos",
+      "intent": "ajuda",
+      "entities": []
+    },
+    {
+      "text": "não estou conseguindo alterar minha url",
+      "intent": "ajuda",
+      "entities": []
+    },
+    {
+      "text": "não estou conseguindo fazer login",
+      "intent": "ajuda",
+      "entities": []
+    },
+    {
+      "text": "oi",
+      "intent": "recepcao",
+      "entities": []
+    },
+    {
+      "text": "olá tudo bem",
+      "intent": "recepcao",
+      "entities": []
+    },
+    {
+      "text": "quais as forma de pagamento",
+      "intent": "Comercial",
+      "entities": []
+    },
+    {
+      "text": "quais tipos de planos tem disponível",
+      "intent": "Comercial",
+      "entities": []
+    },
+    {
+      "text": "qual o valor para ter reativar minha conta",
+      "intent": "Comercial",
+      "entities": []
+    },
+    {
+      "text": "quando clico no botão contatos nada acontece",
+      "intent": "ajuda",
+      "entities": []
+    },
+    {
+      "text": "quanto custa a hospedagem",
+      "intent": "Comercial",
+      "entities": []
+    }
+  ]
+}

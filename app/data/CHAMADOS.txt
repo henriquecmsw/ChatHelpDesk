@@ -1,0 +1,3 @@
+status|servico|identificador_servico|descricao_problema|numero_chamado
+em analise;hospedagem de sites;horfrutGodoi;link quebrado pagina de contatos;01010101
+solucionado;hospedagem de sites;mercadoVale;não consigo acessar a url do site www.mcvale.com.br;02020202
